@@ -499,6 +499,10 @@ footer {
   footer #footer_wrapper #top #get_started {
     margin-left: 2.3em;
   }
+  
+  footer #footer_wrapper #top #news p b{
+       color: #FF7008;
+  }            
   footer #footer_wrapper #top #news input {
     padding: .7em;
     border-top-left-radius: 4px;
