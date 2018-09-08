@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="nav">
+                <div id="logo">
+                    <img src="./img/logos/Group 2.png"/>
+                </div>
+
+                <div id="bars">
+                    <i class="fa fa-bars menu" aria-hidden="true"></i>
+                </div>
+
+                <div id="ul">
+                    <ul>
+                        <li id="top">
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li id="contact">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </section>
+
+            <ul id="sm">
+                <li id="top">
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li id="contact">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+         
+            <section class="section-two">
+                <img src="./img/logos/Group.png"/>
+                <h1>Guaranteed to give you <br/>the best experience in <p>banking</p></h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable.</p>
+
+                <div id="get">
+                    <a href="#">Get Started</a>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <div id="content">
+
+        <div id="logos">
+            <div id="logowrapper">
+                <span>Trusted by</span>
+                <div id="skipe"></div>
+                <div id="visa"></div>                
+                <div id="coka"></div>
+                <div id="google"></div>
+                <div id="puma"></div>
+                <div id="sam"></div>
+                <div id="add"></div>
+                
+            </div>
+        </div>
+
+        <div id="get">
+            <a href="#">Get Started</a>
+        </div>
+
+        <div id="allwrapper">
+            <div class="all_features">
+                <h4 >Features</h4>
+                <h2 id="feat">Designed with everyone in mind</h2>
+            </div>
+
+            <div id="grid">
+                <div class="all_features">
+                    <img src="./img/logos/pencil-case.png"/>
+                    <h2>Designed with everyone in mind</h2>
+                    <p>Get curated content and design inspiration delivered straight to your inbox. <b>Learn more</b></p>
+                </div>
+
+                <div class="all_features">
+                    <img src="./img/logos/vector.png"/>
+                    <h2>Scalability</h2>
+                    <p>Get curated content and design inspiration delivered straight to your inbox. <b>Learn more</b></p>
+                </div>
+
+                <div class="all_features">
+                    <img src="./img/logos/fingerprint.png"/>
+                    <h2>Security</h2>
+                    <p>Get curated content and design inspiration delivered straight to your inbox. <b>Learn more</b></p>
+                </div>
+            </div>
+        </div>
+    <div>
+
+    <footer>
+        <div id="footer_wrapper">
+            <div id="top">
+                <div class="all" id="get_started">
+                    <h2>Get Started</h2>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Guides</a></li>
+                    </ul>
+                </div>
+                <div id="platform" class="all">
+                    <h2>Platform</h2>
+                    <ul>
+                        <li><a href="#">Available on IOS</a></li>
+                        <li><a href="#">Available on Android</a></li>
+                        <li><a href="#">Available on Web</a></li>
+                    </ul>
+                </div>
+                <div id="site" class="all">
+                    <h2>Site Map</h2>
+                    <ul>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="news" class="all">
+                    <h2>Newsletter</h2>
+                        <p>Get curated content and design inspiration delivered straight to your inbox. <b>Learn more</b></p>
+                        <input type="text" placeholder="Your email">
+                        <button type="submit">Submit</button>
+                </div>
+                
+            </div>
+            <div id="border"></div>
+
+            <div id="bottom">
+                <div>
+                    <ul>
+                        <li><a href="#"><img src="./img/social/instagram-logo.png"/></a></li>
+                        <li><a href="#"><img src="./img/social/facebook.png"/></a></li>
+                        <li><a href="#"><img src="./img/social/twitter.png"></a></li>
+                    </ul>
+
+                    <p>Copyright 2018  <b>Gravil.ng.</b>  All rights reserved </p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function(){
+                console.log("hello")
+                $('ul').slideToggle('active');
+            })
+        })
+    </script>
+</body>
+</html>
